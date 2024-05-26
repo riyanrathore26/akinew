@@ -1,0 +1,48 @@
+.gallery {
+    display: flex;
+    margin: 20px;
+}
+
+.big-image {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-image img {
+    width: 420px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.thumbnail-row {
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.thumbnail img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: 2px solid transparent;
+}
+
+.thumbnail.active img {
+    border-color: blue;
+}
+
+.information {
+    flex: 0.45;
+    border-radius: 12px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}

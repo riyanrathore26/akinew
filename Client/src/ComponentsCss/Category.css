@@ -1,0 +1,34 @@
+.app {
+    font-family: Arial, sans-serif;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 10px;
+    white-space: nowrap;
+    margin-right: 3pc;
+    cursor: pointer;
+  }
+  
+  .category {
+    margin: 10px;
+    text-align: center;
+    flex: 0 0 auto;
+  }
+  
+  .category img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .category p {
+    font-size: 16px;
+    color: #333;
+  }
+  

@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.categories, .products, .product-detail {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.category, .product {
+  margin: 10px;
+  text-align: center;
+}
+
+.category img, .product img {
+  width: 100px;
+  height: 100px;
+}
+
+.banner {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.old-price {
+  text-decoration: line-through;
+}
+
+.discount {
+  color: green;
+}
+
+.product-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-img img {
+  width: 300px;
+  height: 300px;
+}
+
+.product-data {
+  margin-left: 20px;
+}
